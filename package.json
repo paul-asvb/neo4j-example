@@ -1,0 +1,23 @@
+{
+  "name": "neo4j-example",
+  "version": "1.0.0",
+  "description": "// npm install --save neo4j-driver var neo4j = require('neo4j-driver'); var driver = neo4j.driver('bolt://34.224.17.173:35104', neo4j.auth.basic('neo4j', 'lent-ingredients-heater'));",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-asvb/neo4j-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul-asvb/neo4j-example/issues"
+  },
+  "homepage": "https://github.com/paul-asvb/neo4j-example#readme",
+  "dependencies": {
+    "neo4j-driver": "^4.1.0"
+  }
+}
