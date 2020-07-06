@@ -4,7 +4,8 @@
   "description": "// npm install --save neo4j-driver var neo4j = require('neo4j-driver'); var driver = neo4j.driver('bolt://34.224.17.173:35104', neo4j.auth.basic('neo4j', 'lent-ingredients-heater'));",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./index.js",
+    "dev":"./node_modules/.bin/nodemon --inspect ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/paul-asvb/neo4j-example#readme",
   "dependencies": {
     "neo4j-driver": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
